@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background:linear-gradient(-45deg, #390465,#172243,rgb(0, 21, 46));
+    background-size: 3500% 3500%;
+    width: 100%;
+    height: 100%;
+    animation: animate 15s ease infinite;
+}
+@keyframes animate{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h2{
+color: rgb(255, 255, 255); 
+margin-left: 450px; 
+margin-top: 25px;
+}
+h2 span{
+    color: red;
+}
+a{ 
+    text-decoration: none;
+    background-color: black;
+}
+
+.footercontainer{
+    background: #171616;
+    height: 300px;
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     border-radius: 10px;
+     margin-left: 5px;
+     margin-right: 5px;
+     
+ }
+ 
+ .socialicons{
+     margin-top: 150px;
+     padding: 30px;
+     display: flex;
+     justify-content: space-between;
+ 
+ }
+ .box1f h2{
+     position: absolute;
+     margin-top: 40px ;
+     margin-left : 50px;
+     margin-right: 30px;
+     color: #fff;  
+ }
+ .box1f h2::before{
+     content: '';
+     width: 80px;
+     left: 0;
+     bottom: -15px;
+     position: absolute;
+     height: 2px;
+     background-color: rgb(203, 10, 168);
+     box-sizing: border-box;
+ }
+ .socialicons a i{
+     font-size: 2em;
+     color:#fff;
+ }
+ .socialicons i.fa-twitter:hover{
+     color: #00b3ff;
+      transition: 0.1s;
+ }
+ .socialicons i.fa-facebook:hover{
+     color: rgb(17, 5, 90);
+      transition: 0.1s;
+ }
+ .socialicons i.fa-instagram:hover{
+     color: #dd20ca;
+      transition: 0.1s;
+ }
+ .socialicons i.fa-youtube:hover{
+     color: #ff0000;
+      transition: 0.1s;
+ }
+ .societe h2 ,.help h2, .news h2{
+     position: absolute;
+     margin-top: 35px ;
+     margin-left : 40px;
+     margin-right: 30px;
+     color: #fff;  
+ }
+ .help div{
+     margin-top: 100px;
+ }
+ 
+ .help p a{
+     text-decoration: none;
+     margin-bottom: 15px;
+     color: #fff;
+     font-size: 14px;
+ }
+ .help p a:hover{
+     color: #c3660a;
+     transition: 0.1s;
+ }
+ .help p i{
+     margin-bottom: 15px;
+     color: #fff;
+     font-size: 14px;
+     margin-right: 10px;
+ }
+ .help p i:hover{
+     color: #c3660a;
+     transition: 0.1s;
+ }
+ .news form{
+     margin-top: 100px;
+ }
+ .news form .email{
+     margin-top: 20px;
+     border-radius: 8px;
+     cursor: text;
+     padding: 8px;
+     height: 30px;
+     width: 250px;
+ }
+ .news form input:hover{
+     border:3px solid #c3660a;
+     box-shadow: 0 10px 30px #c3660a;
+     transition: .1s;
+ }
+ .news form label {
+     color: #fff;
+     font-size: 14px;
+ }
+ .societe h2::before, .help h2::before, .news h2::before{
+     content: '';
+     width: 80px;
+     left: 0;
+     bottom: -15px;
+     position: absolute;
+     height: 2px;
+     background-color: rgb(203, 10, 168);
+     box-sizing: border-box;
+ }
+ .societe h3{
+     position: absolute;
+     margin-top: -30px;
+     margin-left: 20px;
+     color: #d7f321;
+ }
+ .about .gridabout{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     width: 80px;
+     height: 100px;
+     column-gap: 20px;
+     margin-top: 130px;
+     margin-bottom: 5px;
+     color: #c3d2f2;
+     font-size: 12px;
+     margin-left: 20px;
+ }
+ .gridabout i{
+     color: #fff;
+     width: 20px;
+     height: 20px;
+     font-size: large;
+     margin-bottom: 10px;
+ }
+ 
+ .gridabout i:hover, #tele:hover{
+     color: #c3660a;
+     transition: .1s;
+ }
+ 
+ 
+ /*fin footer section*/
+ .copyright{
+     height: 50px;
+     color: #fff;
+     text-align: center;
+     padding: 13px;
+ }
+ .copyright i{
+     color: #c3660a;
+ }
+ .copyright span{
+     margin-right: 20px;
+ }
+ /*nouveau produit*/
+ .containernew{
+     width: 700px;
+     height: 400px;
+     
+ }
+ .left .right{
+     width: 800px;
+     height: 350px;
+     padding: 30px;
+ }
+ .flex{
+     display: flex;
+    
+ }
+ .containernew{
+     margin-left: 100px;
+     margin-bottom: 180px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     column-gap: 80px;
+ }
+ .flex1{
+     display: flex;
+ }
+ .options{
+     margin-top: 10px;
+ }
+ .mainimage{
+     padding-top: 25px;
+     border: 2px solid orangered;
+     border-radius: 150px;
+     box-shadow: 0 5px 18px purple;
+ }
+ .options img{
+     border-radius: 30px;
+     border: 2px solid orangered;
+     box-shadow: 0 5px 18px purple;
+     width: 100px;
+     height: 130px;
+     padding: 10px;
+ }
+ .slide{
+     width: 200px;
+     height: 300px;
+     margin-bottom: 50px;
+     margin-left: 45px;
+     padding-top: 20px;
+     border-radius: 50px;
+ }
+ .right h3{
+     color: orangered;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-bottom: 10px;
+ }
+ .right h4{
+     margin-bottom: 10px;
+     color: rgb(232, 219, 219);
+ }
+ .right h5{
+     margin-top: 15px;
+     margin-bottom: 10px;
+     font-size: 15px;
+ }
+ .right{
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ .add label, .add span{
+     background: #fff;
+     border: 1px solid orangered;
+     text-align: center;
+     line-height: 25px;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     margin: 20px 10px 20px 0px;
+     box-shadow: 0 2px 8px orangered;
+ }
+ .add label{
+     padding: 10px 30px 0px 20px;
+     border-radius: 50px;
+     line-height: 0;
+     font-weight: bold;
+     padding-top: 13px;
+     background: #fff;
+ }
+ .right button{
+     width: 100%;
+     padding: 10px;
+     border: none;
+     outline: none;
+     font-weight: bolder;
+     background: orangered;
+     border-radius: 30px;
+ }
+ 
